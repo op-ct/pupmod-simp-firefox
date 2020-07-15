@@ -1,0 +1,8 @@
+---
+fixtures:
+  repositories:
+    pki: https://github.com/simp/pupmod-simp-pki
+    simplib: https://github.com/simp/pupmod-simp-simplib
+    stdlib: https://github.com/simp/puppetlabs-stdlib
+  symlinks:
+    firefox: "#{source_dir}"
